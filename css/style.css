@@ -200,7 +200,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -293,6 +293,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -369,10 +370,6 @@ a {
   margin-bottom: 2rem;
 }
 
-.plan--popular {
-  transform: scale(1.1);
-}
-
 .plan--popular .card__header {
   position: relative;
 }
@@ -395,6 +392,10 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+  .plan--popular {
+    transform: scale(1.1);
+  }
+
   .plan__name {
     font-size: 1.4rem;
   }
@@ -529,7 +530,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .testimonial__image {
-    margin: 3rem 3rem 0 3rem;
+    margin: 0 2rem;
   }
 
   .testimonial .quote,
@@ -747,8 +748,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-primary);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -817,14 +819,40 @@ a {
   }
 }
 
+/* Testimonial Block */
+.block-testimonial .block-testimonial {
+  padding: 0 2rem;
+}
+
+@media screen and (max-width: 374px) {
+  .block-testimonial .testimonial {
+    padding: 3rem 0 0;
+  }
+
+  .block-testimonial .testimonial__image {
+    margin: 0 4rem;
+  }
+}
+
+/* Callout Block */
+.block-callout {
+  padding: 0 2rem;
+  transform: translateY(10rem);
+}
+
 /* Footer */
 .footer {
+  padding-top: 15rem;
   background: #232323;
 }
 
 .footer a {
   color: #777;
   transition: color 0.3s;
+}
+
+.footer a.btn--secondary {
+  color: #fff;
 }
 
 .footer a:hover {
