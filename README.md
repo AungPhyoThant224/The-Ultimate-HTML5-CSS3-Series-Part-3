@@ -1,5 +1,5 @@
 # The-Ultimate-HTML5-CSS3-Series-Part-3
-The Ultimate HTML5 &amp; CSS3 By Mosh Hamedani
+The Ultimate HTML5 &amp; CSS3 By Mosh Hamedani.
 
 <p float=left>
 <img width="74%" alt="Screenshot 2023-07-25 at 4 22 38 PM" src="https://github.com/AungPhyoThant224/The-Ultimate-HTML5-CSS3-Series-Part-3/assets/64633485/28286011-e04d-40c2-8d11-e24d4c5c04cd">
